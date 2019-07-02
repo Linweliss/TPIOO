@@ -19,22 +19,22 @@ public class Controlador implements ActionListener {
 	public void actionPerformed(ActionEvent evento) {
 		// TODO Auto-generated method stub
 		
-		if(evento.getActionCommand().equals("Ventana clientes")) {
+		if(evento.getActionCommand().equals("Clientes")) {
 			VentanaClientes ventanaClientes = new VentanaClientes();
 		}
-		if(evento.getActionCommand().equals("Ventana pedidos")) {
+		if(evento.getActionCommand().equals("Pedidos")) {
 			VentanaPedidos ventanaPedidos = new VentanaPedidos();
 		}
-		if(evento.getActionCommand().equals("Ventana productos")) {
+		if(evento.getActionCommand().equals("Productos")) {
 			VentanaProductos ventanaProductos = new VentanaProductos();
 		} 
-		if(evento.getActionCommand().equals("Ventana proveedores")) {
+		if(evento.getActionCommand().equals("Proveedores")) {
 			VentanaProveedores ventanaProveedores = new VentanaProveedores();
 		}
-		if(evento.getActionCommand().equals("Ventana vendedores")) {
+		if(evento.getActionCommand().equals("Vendedores")) {
 			VentanaVendedores ventanaVendedores = new VentanaVendedores();
 		}
-		if(evento.getActionCommand().equals("Ventana ventas")) {
+		if(evento.getActionCommand().equals("Ventas")) {
 			VentanaVentas ventanaVentas = VentanaVentas.getInstance();
 			ventanaVentas.setVisible(true);
 		}

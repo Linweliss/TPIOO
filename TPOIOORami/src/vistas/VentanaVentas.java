@@ -25,6 +25,7 @@ public class VentanaVentas extends JFrame {
 		this.setSize(400,400);
 		
 		
+	    
 		//BOTONES
 		agregarVenta = new JButton("Nueva venta");
 		cerrarVenta = new JButton("Cerrar venta");
