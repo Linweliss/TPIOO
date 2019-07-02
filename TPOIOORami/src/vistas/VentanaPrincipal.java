@@ -33,15 +33,15 @@ public class VentanaPrincipal extends JFrame /*implements ActionListener*/{
 		
 		Container panel=this.getContentPane();
 		//LABELS
-		lblDescripcionVentana = new JLabel("Elija que ventana abrir:");
+		lblDescripcionVentana = new JLabel("Seleccione la opción deseada:");
 		
 		//BOTONES
-		btnClientes = new JButton("Ventana clientes");
-		btnPedidos = new JButton("Ventana pedidos");
-		btnProductos = new JButton("Ventana productos");
-		btnProveedores = new JButton("Ventana proveedores");
-		btnVendedores = new JButton("Ventana vendedores");
-		btnVentas = new JButton("Ventana ventas");
+		btnClientes = new JButton("Clientes");
+		btnPedidos = new JButton("Pedidos");
+		btnProductos = new JButton("Productos");
+		btnProveedores = new JButton("Proveedores");
+		btnVendedores = new JButton("Vendedores");
+		btnVentas = new JButton("Ventas");
 
 	
 		

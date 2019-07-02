@@ -4,7 +4,7 @@ import javax.swing.*;
 
 public class VentanaVendedores extends JFrame {
 	//TITULO
-	private String titulo = "Ventana vendedores";
+	private String titulo = "Vendedores";
 	//BOTONES
 	
 	//

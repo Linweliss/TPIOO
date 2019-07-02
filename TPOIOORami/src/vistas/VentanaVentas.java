@@ -14,7 +14,7 @@ public class VentanaVentas extends JFrame {
 	
 	
 	//TITULO
-	private String titulo = "Ventana ventas";
+	private String titulo = "Ventas";
 	//BOTONES
 	private JButton agregarVenta;
 	private JButton cerrarVenta;
@@ -26,7 +26,7 @@ public class VentanaVentas extends JFrame {
 		
 		
 		//BOTONES
-		agregarVenta = new JButton("Agregar venta");
+		agregarVenta = new JButton("Nueva venta");
 		cerrarVenta = new JButton("Cerrar venta");
 		
 		Controlador controlador = new Controlador(SistemaDeIndumentaria.getInstance());

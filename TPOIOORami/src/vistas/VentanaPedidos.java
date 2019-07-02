@@ -3,7 +3,7 @@ import javax.swing.*;
 
 public class VentanaPedidos extends JFrame{
 	//TITULO
-	private String titulo = "Ventana pedidos";
+	private String titulo = "Pedidos";
 	//BOTONES
 	
 	//
