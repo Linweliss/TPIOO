@@ -40,10 +40,13 @@ public class Controlador implements ActionListener {
 		}
 		
 		
-		if(evento.getActionCommand().equals("Agregar venta")) {
+		if(evento.getActionCommand().equals("Nueva venta")) {
 			
-			modelo.agregarVenta(new Vendedor("ddd", "dddd", "ddd", 0, "ddd"), new Cliente("dd", "ddd", "ddull", "ddd", "ddd"), null, 2);
-			System.out.println(modelo.getVentas());
+			VentanaVentaNueva ventanaVentaNueva = VentanaVentaNueva.getInstance();
+			ventanaVentaNueva.setVisible(true);
+			
+			//modelo.agregarVenta(new Vendedor("ddd", "dddd", "ddd", 0, "ddd"), new Cliente("dd", "ddd", "ddull", "ddd", "ddd"), null, 2);
+			System.out.println("paso por lo nuevo");
 		}
 	
 		System.out.println(evento.getActionCommand());
